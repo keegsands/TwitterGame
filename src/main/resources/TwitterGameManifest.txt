@@ -1,0 +1,5 @@
+Class-Path: twitter4j-core-2.1.0.jar
+Manifest-Version: 1.0
+Sealed: true
+Main-Class: com.keegsands.twittergame.TwitterGame
+
