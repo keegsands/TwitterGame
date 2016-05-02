@@ -61,7 +61,7 @@ public class TwitterGame {
 		final List<Status> prevDays = getPreviousDaysReplyTweets(statuses,
 				twentyFourAgo);
 		System.out.println("Processing " + prevDays.size()
-				+ " status updates from the last 24 hours.");
+				+ " status updates from the last 24 hours on Twitter.");
 		for (final Status status : prevDays) {
 
 			final String replyUsername = parseAtUsername(status);
